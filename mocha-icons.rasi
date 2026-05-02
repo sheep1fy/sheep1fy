@@ -1,23 +1,23 @@
 * {
-    /* Catppuccin Mocha - Grey Blur & Opaque Theme */
+    /* Catppuccin Mocha - Dark Mode Grey Theme */
     
-    /* Primary backgrounds - grey with varying opacity */
-    bg0:    rgba(45, 45, 50, 0.92);       /* Main window - dark grey, solid */
-    bg1:    rgba(60, 60, 65, 0.88);       /* Secondary surfaces - grey */
-    bg2:    rgba(75, 75, 80, 0.85);       /* Tertiary surfaces - medium grey */
-    bg3:    rgba(100, 100, 105, 0.95);    /* Accent/Selected - lighter grey, opaque */
-    bg-glass: rgba(50, 50, 55, 0.35);     /* Glass overlay - very transparent grey */
+    /* Primary backgrounds - deep dark grey */
+    bg0:    rgba(20, 20, 25, 0.95);       /* Main window - very dark grey, nearly opaque */
+    bg1:    rgba(30, 30, 35, 0.92);       /* Secondary surfaces - dark grey */
+    bg2:    rgba(40, 40, 45, 0.90);       /* Tertiary surfaces - dark grey */
+    bg3:    rgba(60, 60, 70, 0.95);       /* Accent/Selected - darker accent grey */
+    bg-glass: rgba(25, 25, 30, 0.40);     /* Glass overlay - very transparent dark grey */
     
-    /* Text colors - high contrast on grey */
-    fg0:    #e0e0e0;                      /* Primary text - light grey */
-    fg1:    #f0f0f0;                      /* Highlight text - off-white */
-    fg2:    #c0c0c0;                      /* Secondary text - medium grey */
-    fg3:    #808080;                      /* Tertiary text - dark grey */
+    /* Text colors - minimal light tones, mostly dark */
+    fg0:    #a0a0a5;                      /* Primary text - dim grey */
+    fg1:    #b5b5ba;                      /* Highlight text - slightly brighter grey */
+    fg2:    #808085;                      /* Secondary text - darker grey */
+    fg3:    #505055;                      /* Tertiary text - very dark grey */
 
-    /* Border styling - subtle grey tones */
-    border-light: rgba(224, 224, 224, 0.20);
-    border-accent: rgba(150, 150, 160, 0.60);
-    border-dark: rgba(40, 40, 45, 0.50);
+    /* Border styling - very dark subtle borders */
+    border-light: rgba(160, 160, 165, 0.15);
+    border-accent: rgba(100, 100, 115, 0.50);
+    border-dark: rgba(15, 15, 20, 0.60);
 }
 
 * {
@@ -42,7 +42,7 @@ window {
     background-color:   @bg0;
     
     /* Subtle shadow effect for depth */
-    shadow:         "0 8px 32px rgba(0, 0, 0, 0.50)";
+    shadow:         "0 8px 32px rgba(0, 0, 0, 0.70)";
 }
 
 mainbox {
