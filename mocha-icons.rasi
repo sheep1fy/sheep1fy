@@ -41,9 +41,6 @@ window {
 
     background-color:   @bg0;
     
-    /* Backdrop blur effect */
-    backdrop-filter: blur(10px);
-    
     /* Subtle shadow effect for depth */
     shadow:         "0 8px 32px rgba(0, 0, 0, 0.50)";
 }
