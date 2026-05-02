@@ -10,7 +10,7 @@
     
     /* Text colors - minimal light tones, mostly dark */
     fg0:    #a0a0a5;                      /* Primary text - dim grey */
-    fg1:    #b5b5ba;                      /* Highlight text - slightly brighter grey */
+    fg1:    #f0f0f0;                      /* Highlight text - white */
     fg2:    #808085;                      /* Secondary text - darker grey */
     fg3:    #505055;                      /* Tertiary text - very dark grey */
 
@@ -107,19 +107,19 @@ element {
     border:         2px;
     border-color:   transparent;
 
-    background-color: transparent;
-    text-color: @fg0;
+    background-color: @bg2;
+    text-color: @fg1;
 }
 
 element normal active {
-    text-color: @fg0;
-    background-color: @bg-glass;
+    text-color: @fg1;
+    background-color: @bg2;
     border-color: @border-light;
 }
 
 element alternate active {
-    text-color: @fg0;
-    background-color: @bg-glass;
+    text-color: @fg1;
+    background-color: @bg2;
     border-color: @border-light;
 }
 
